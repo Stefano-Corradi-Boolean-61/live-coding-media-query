@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 50px;
+}
+
+@media (min-width:480px){
+    ul{
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    li{
+        display: inline-block;
+        background-color: gray;
+        padding: 0 10px;
+        color: white;
+    }
+}

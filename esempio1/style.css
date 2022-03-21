@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* approccio mobile first */
+.quadrato{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 479px){
+    .quadrato{
+        float: left;
+        background-color: red;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .due{
+        float: right;
+        margin-right: 0;
+    }
+}

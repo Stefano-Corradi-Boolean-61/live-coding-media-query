@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* mobile first */
+img{
+    display: block;
+    border: 1px solid red;
+    margin: 5px auto;
+}
+
+@media screen and (min-width:568px){
+    .container{
+        width: 450px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width:780px){
+    .container{
+        width: 100%;
+    }
+}

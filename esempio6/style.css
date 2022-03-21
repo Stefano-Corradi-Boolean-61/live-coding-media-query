@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* approccio desktop first */
+.blue, .green{
+    height: 240px;
+    float: left;
+}
+
+.blue{
+    background-color: blue;
+    width: calc(100% - 460px);
+}
+
+.green{
+    background-color: green;
+    padding: 20px;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: red;
+}
+
+.red:first-child{
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 579px){
+    .green{
+        display: none;
+    }
+    .blue{
+        width: 100%;
+        float: none;
+    }
+}
